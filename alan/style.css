@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 98%;
+  background-color:  #e6ffff;
+}
+nav{
+  color: White;
+  background-color: black;
+  margin-top: -23px;
+  margin-left: -8px;
+  margin-right: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.flex{
+ display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+
+}
+.card{
+  margin: 16px;
+  box-shadow: 5px 5px  black;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+div >h2{
+  font-size: 15px;
+}
+.titulo{
+ font-size:20px;
+  
+}
+.lista{
+  display: flex;
+  align-items: center;
+}
+a:link{
+  color:white;
+}
+a:visited{
+  color:white;
+}
+a:hover{
+  color:red;
+}
+a:active{
+  color:red;
+}
